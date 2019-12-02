@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
-	get "/artists", to: "artists#index"
-	get "/artists/:id", to: "artists#album"
+	get "/artist", to: "artists#index"
+	get "/artist/:id", to: "artists#album"
 end
